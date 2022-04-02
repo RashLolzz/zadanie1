@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Liyue.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 9vh;
+}
+
+button {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: transparent;
+  border: transparent;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+
+.Xiao {
+  color: rgb(0, 129, 65);
+}
+.Xiao:hover {
+  color: rgb(0, 211, 105);
+}
+
+.Shen,
+.Gan {
+  color: rgb(87, 163, 189);
+}
+.Shen:hover,
+.Gan:hover {
+  color: rgb(167, 233, 255);
+}
+
+.Ning,
+.Zhong {
+  color: rgb(206, 148, 24);
+}
+.Ning:hover,
+.Zhong:hover {
+  color: rgb(255, 200, 81);
+}
+
+.Keq {
+  color: rgb(171, 0, 214);
+}
+.Keq:hover {
+  color: rgb(218, 72, 255);
+}
