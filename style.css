@@ -15,12 +15,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(48, 27, 0, 0.342);
   height: 9vh;
 }
 
 button {
-  font-family: verdana;
+  font-family: Helvetica;
   font-weight: bold;
   font-size: 40px;
   margin: 15px;
